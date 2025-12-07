@@ -1,0 +1,23 @@
+.login-page {
+  &__card {
+    max-width: 420px;
+  }
+
+  &__header {
+    margin-bottom: 1.5rem;
+
+    h1 {
+      margin: 0 0 0.5rem;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+  }
+
+  .login-form {
+    margin-top: 0.5rem;
+  }
+}
